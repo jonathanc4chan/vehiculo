@@ -1,6 +1,7 @@
+//programa que permite saber el tiempo y cuantos vehiculos concursaron en un carrera
+
 import java.util.Scanner;
 public class Vehiculos {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
