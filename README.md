@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Vehiculos {
 
     public static void main(String[] args) {
@@ -46,6 +45,5 @@ public class Vehiculos {
         // Suponemos que la longitud del circuito es constante para todos los vehículos.
         double longitudCircuito = 4000; // Longitud del circuito en metros
         double tiempoTotalSegundos = tiempoTotal * 60; // Convertir a segundos
-        return longitudCircuito / (tiempoTotalSegundos * numVueltas);
-    }
+        return longitudCircuito / (tiempoTotalSegundos * numVueltas);}
 }
